@@ -1,6 +1,11 @@
 {
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "cypress-real-events": "^1.7.6"
+  },
+  "scripts": {
+    "test": "npx cypress run",
+    "open": "npx cypres open"
   }
 }

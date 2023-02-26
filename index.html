@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Drag and Drop</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <section class="board">
+<section class="board">
     <div class="list">
-      <h2>TODO</h2>
-      <div class="list__content" id="todo">
-        <article class="card" draggable="true">
-          <h3>CARD 01</h3>
-        </article>
-      </div>
+        <h2>A FAZER</h2>
+        <div class="list__content" id="afazer">
+            <article class="card" draggable="true">
+                <h3>Drag and drop Angular</h3>
+            </article>
+        </div>
     </div>
     <div class="list">
-      <h2>DOING</h2>
-      <div class="list__content" id="doing">
-        <article class="card" draggable="true">
-          <h3>CARD 02</h3>
-        </article>
-        <article class="card" draggable="true">
-          <h3>CARD 03</h3>
-        </article>
-      </div>
+        <h2>FAZENDO</h2>
+        <div class="list__content" id="fazendo">
+            <article class="card" draggable="true" id="card1">
+                <h3>Drag and drop</h3>
+            </article>
+            <article class="card" draggable="true" id="card3">
+                <h3>Instalar Cypress </h3>
+            </article>
+            <article class="card" draggable="true" id="card2">
+                <h3>npm install --save-dev @4tw/cypress-drag-drop</h3>
+            </article>
+        </div>
     </div>
     <div class="list">
-      <h2>DONE</h2>
-      <div class="list__content" id="done">
-        <article class="card" draggable="true">
-          <h3>CARD 04</h3>
-        </article>
-      </div>
+        <h2>FEITO</h2>
+        <div class="list__content" id="feito">
+
+        </div>
     </div>
-  </section>
-  
-  <script src="script.js"></script>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>

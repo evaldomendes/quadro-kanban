@@ -23,3 +23,10 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('dragAndDrop', (subjectSelector, targetSelector) => {
+    cy.get(subjectSelector)
+        .realMouseDown({ button: 'left', position: 'center' })
+        .realMouseMove(0, 10, { position: 'center' });
+    cy.get(targetSelector).realMouseMove(0, 0, { position: 'center' }).realMouseUp();
+});

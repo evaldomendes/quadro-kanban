@@ -9,3 +9,6 @@
 misc.xml
 modules.xml
 vcs.xml
+/cypress/downloads/
+/cypress/screenshots/
+/cypress/videos/

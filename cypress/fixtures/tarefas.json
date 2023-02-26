@@ -1,0 +1,14 @@
+[
+  {
+    "seletor": "#card3",
+    "descricao": "Instalar Cypress"
+  },
+  {
+    "seletor": "#card2",
+    "descricao": "npm install --save-dev @4tw/cypress-drag-drop"
+  },
+  {
+    "seletor": "#card1",
+    "descricao": "Drag and drop"
+  }
+]
