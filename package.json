@@ -6,6 +6,6 @@
   },
   "scripts": {
     "test": "npx cypress run",
-    "open": "npx cypres open"
+    "open": "npx cypress open"
   }
 }
